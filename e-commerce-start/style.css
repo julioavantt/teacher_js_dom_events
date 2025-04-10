@@ -1,0 +1,51 @@
+header {
+ height: 67px;
+ img {
+  width: 40px;
+  position: relative;
+  left: -13px;
+  top: -1px;
+ }
+}
+
+#index main {
+ height: calc(100vh - 69px);
+ h1 {
+  color: #fff;
+ }
+ section {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  .card {
+   width: 300px;
+   padding: 0.8rem 0.8rem 0.3rem;
+   .img-wrapper {
+    height: 152px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+   }
+   a {
+    background-color: #ff0000;
+    border-color: #ff0000;
+   }
+  }
+ }
+}
+
+#producto section,
+.text-muted,
+#producto h1 {
+ color: white !important;
+}
+
+#producto section button {
+ background-color: #ff0000;
+ border-color: #ff0000;
+}
+
+#producto header a {
+ text-decoration: none;
+}

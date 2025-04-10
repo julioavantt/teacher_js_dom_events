@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lista</title>
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+  <link
+   href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+   rel="stylesheet"
+   integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+   crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="style.css" />
+ </head>
+ <body class="bg-secondary">
+  <header class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+   <div class="container-fluid">
+    <span class="navbar-brand me-auto">Lista</span>
+    <a class="navbar-brand" href="https://github.com/julioavantt"
+     ><img
+      src="./img/github.png"
+      style="width: 30px; position: relative; top: -3px"
+      alt="GitHub Julio Avantt!"
+    /></a>
+    <a class="navbar-brand" href="https://www.youtube.com/@juniorpride"
+     ><img src="./img/youtube.png" alt="Canal Junior Pride" /><span
+      >Creado por Julio Avantt!</span
+     ></a
+    >
+   </div>
+  </header>
+  <main class="mt-4 container">
+   <h1>Lista</h1>
+   <div class="input-group input-group-lg mt-4 mb-4">
+    <input
+     type="text"
+     class="form-control"
+     placeholder="Agregar tarea"
+     aria-label="Agregar tarea"
+    />
+    <button class="btn btn-secondary" type="button" id="add">Agregar</button>
+   </div>
+   <div class="form-text bg-danger d-none">Debes escribir algo!</div>
+   <ul></ul>
+  </main>
+ </body>
+</html>
